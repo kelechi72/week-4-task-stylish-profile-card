@@ -44,7 +44,7 @@ body {
     margin: o auto;
 }
 .profile-picture:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .name {
@@ -61,10 +61,11 @@ body {
     padding: 7px;
     border-top: 7px double rgb(177, 131, 114);
     border-bottom: 7px double rgb(177, 131, 114);
-    border-radius: 10%;
+    border-radius: 4%;
     background-color: rgba(240, 248, 255, 0.979);
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: bold;
 }
 .job-title:hover{
     color: rgba(240, 248, 255, 0.979);
@@ -72,21 +73,25 @@ body {
 }
 
 .description {
-    font-size: 16px;
+    font-size: 18px;
     text-align: left; /* Align description to the left */
     line-height: 1.5;
-    color: black;
-    border-bottom: 10px;
+    color:rgb(14, 1, 1);
+    border-bottom: 20px;
+    
+
 }
   
 .social-icons{
     display: inline-block;
     margin-right: 10px;
-    color: #333333fd;
+    margin-top: 10px;
+    color: #3a3333fd;
     font-size: 24px;
     transition: color 0.3s ease-in-out;
     border-top: 10px;
+    text-align: center;
 }
 .social-icons:hover{
-    color: white;
+    color: rgb(184, 103, 74);
 }
